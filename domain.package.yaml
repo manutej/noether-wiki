@@ -1,0 +1,22 @@
+id: jane-street-puzzles
+kind: wiki
+part:
+  name: puzzle
+  locator: "catalog#id | wiki/page#heading"
+  fields:
+    - path
+    - title
+    - year_month
+    - series
+    - technique
+    - structure
+shared_fields:
+  - page
+  - title
+links_observed_from:
+  - markdown_link
+  - catalog_series
+  - catalog_successor
+  - official_url
+residualMeaning: "two puzzles disagree on which invariant they are conserving — partition, path measure, or search bound"
+cap_nodes: 88
